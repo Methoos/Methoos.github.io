@@ -13,17 +13,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 /*Roboto Ipmport*/
 
-p {
+.content {
+    /*class*/
     color: green;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     text-transform: capitalize;
     line-height: 60px;
+    max-width: 75%;
 }
 
 h3 {
     font-family: "Oswald", sans-serif;
+    color: aqua;
+}
+
+#skills {
+    /*ID*/
+    color: brown;
 }
 
 h4 {
@@ -34,8 +42,42 @@ h5 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
+/*img {
     width: 200px;
     height: 200px;
     margin: 20px;
+    box-shadow: 3px 3px 7px black;
+    margin: 10px;
+}*/
+
+img {
+    width: 17.2%;
+    box-shadow: 3px 3px 7px black;
+    margin: 1%;
+}
+
+.img-div {
+    background-color: lightblue;
+}
+
+.img-div-light {
+    background-color: aliceblue;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#img1 {
+    display: inline;
+    /*none*/
+    visibility: visible;
+    position: relative;
+    left: 100px;
+}
+
+#img2 {
+    position: fixed;
+    top: 100px;
+    left: 150px;
 }

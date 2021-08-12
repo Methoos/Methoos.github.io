@@ -1,0 +1,35 @@
+#colorDiv {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+}
+
+#color2Div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(200, 20, 10);
+}
+
+#color3Div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(200, 20, 10, 0.5);
+    /*Átlátszóság*/
+}
+
+#color4Div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+}
+
+html {
+    background-color: rgb(47, 180, 30);
+    background-image: url(/pics/burger.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

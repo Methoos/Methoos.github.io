@@ -1,0 +1,55 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.loginDiv {
+    padding: 15px;
+    border: solid 1px #c0c0c0;
+    box-shadow: 0 0 2px #777777;
+    display: inline-block;
+}
+
+.loginDiv input {
+    display: block;
+    margin-bottom: 7px;
+}
+
+/*.loginDiv input[type="email"]{
+    border: solid 1px blue;
+}*/
+
+.loginDiv input[type="password"] {
+    border: solid 1px red;
+}
+
+input[class*="blue"] {
+    /*valahol a class tartalmaz blue-t, class^="blue" azzal kezdődik, hogy blue, class$="red" arra végződik, hogy red*/
+    border: solid 1px blue;
+}
+
+input [class*="control"]{
+display: block;
+}
+
+.loginDiv button:hover{
+    box-shadow: 2px 2px 3px #c0c0c0;
+}
+
+.loginDiv input:focus{
+    box-shadow: 2px 2px 3px #a31f1f;
+    border: none;
+}
+ul li:last-child{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+ul li:first-child{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+ul li:nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}

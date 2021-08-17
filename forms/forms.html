@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <Fieldset>
+            <legend><strong>Személyes adatok megadása</strong></legend>
+
+            <div>
+                <label for="name">Név</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div>
+                <label for="password">Jelszó</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <label for="birthdate">Születési dátum</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+            <div>
+                <label for="comment">Megjegyzés</label>
+                <textarea rows="2" id="comment" name="comment" required> </textarea>
+            </div>
+        </Fieldset>
+        <fieldset>
+            <legend>Termék adatai</legend>
+            <div>
+                <label for="nothing">Nem kérek</label>
+                <input type="radio" id="nothing" name="nothing" >
+            </div>
+            <div>
+                <label for="feltet1">Feltét1</label>
+                <input type="checkbox" id="feltet1" name="feltet1" >
+            </div>
+            <div>
+                <label for="feltet2">Feltét2</label>
+                <input type="checkbox" id="feltet2" name="feltet2" >
+            </div>
+            <div>
+                <label for="feltet3">Feltét3</label>
+                <input type="checkbox" id="feltet3" name="feltet3" >
+            </div>
+           
+    
+            <div>
+                <label for="nothing">Nem kérek</label>
+                <input type="radio" id="nothing" name="extra" >
+            </div>
+            <div>
+                <label for="feltet1">Feltét1</label>
+                <input type="radio" id="feltet1" name="extra" >
+            </div>
+            <div>
+                <label for="feltet2">Feltét2</label>
+                <input type="radio" id="feltet2" name="extra" >
+            </div>
+            <div>
+                <label for="feltet3">Feltét3</label>
+                <input type="radio" id="feltet3" name="extra" >
+            </div>
+
+            <div>
+                <label for="sauce">Szószok</label>
+                <select name="sauce" id="sauce">
+                    <option value="0" selected>1.szósz</option>
+                    <option value="100">2.szósz</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="quantity">Mennyiség:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" maxlength="3" >
+            </div>
+        </fieldset>
+        <input type="button" value="Rendelés leadása">
+
+    </form>
+</body>
+</html>

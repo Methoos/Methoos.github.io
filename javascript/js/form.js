@@ -55,6 +55,7 @@ orderForm.addEventListener("submit", function (ev) {
     for (let index = 0; index < inputs.length; index++) {
         values[inputs[index].name] = inputs[index].value;
     }
+    calcAmount();
 
     console.log(values);
 });
